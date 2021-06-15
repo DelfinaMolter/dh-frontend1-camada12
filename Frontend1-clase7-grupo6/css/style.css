@@ -7,6 +7,7 @@ h1, h3 {
     background-color:#C4C4C4;
     color:#005677;
     padding:7px 10px ;
+    letter-spacing:2px;
 }
 /*---------HEADER---------*/
 header{
@@ -16,6 +17,7 @@ header{
 
 h1{
     text-align:center;
+    letter-spacing:4px;
 }
 
 /*---------MAIN---------*/
