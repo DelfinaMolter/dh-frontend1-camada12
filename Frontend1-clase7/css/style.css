@@ -1,0 +1,52 @@
+/*-------General---------*/
+body{
+    font-family: 'Times New Roman', serif ;
+}
+
+h1, h3 {
+    background-color:#C4C4C4;
+    color:#005677;
+    padding:7px 10px ;
+}
+/*---------HEADER---------*/
+header{
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+}
+
+/*---------MAIN---------*/
+main{
+    margin:100px 200px;
+}
+
+.italica{
+    font-weight: bold;
+    font-style: italic;
+}
+ul{
+    padding:0px 40px; 
+    margin:5px 0px;
+}
+table {
+    padding:0px 50px;
+    margin:5px 0px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+/*------------FOOTER--------------*/
+footer {
+    background-color:#005677;
+    text-align:center;
+    padding: 1px;
+}
+.numero{
+    color:#FFFFFF;
+}
+footer img{
+    margin: 0px 5px;
+}
