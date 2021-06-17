@@ -1,0 +1,73 @@
+/*-------General---------*/
+body{
+    font-family: 'Times New Roman', serif ;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%230f0a18' fill-opacity='0.04'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1, h3 {
+    background-color:#C4C4C4;
+    color:#005677;
+    padding:7px 10px ;
+    letter-spacing:2px;
+}
+/*---------HEADER---------*/
+header{
+    text-align:center;
+    background-color: #E5E5E5;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    letter-spacing:4px;
+}
+/*--------NAV-----------*/
+nav {
+    text-align:center;
+    margin:30px;
+}
+nav ul li a{
+    text-decoration:none;
+    border: solid 1px;
+    padding: 5px 7px;
+    color:#005677;
+}
+
+/*---------MAIN---------*/
+main{
+    margin:100px 200px;
+}
+
+.italica{
+    font-weight: bold;
+    font-style: italic;
+}
+ul{
+    padding:0px 40px; 
+    margin:5px 0px;
+}
+table {
+    padding:0px 50px;
+    margin:5px 0px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+.texto{
+    padding: 90px;
+    text-align: justify;
+}
+/*------------FOOTER--------------*/
+footer {
+    background-color:#005677;
+    text-align:center;
+    padding: 1px;
+}
+.numero{
+    color:#FFFFFF;
+}
+footer i{
+    margin: 0px 5px;
+    color:#FFFFFF
+}
