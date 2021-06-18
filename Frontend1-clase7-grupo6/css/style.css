@@ -8,6 +8,7 @@ h1, h3 {
     color:#005677;
     padding:7px 10px ;
     letter-spacing:2px;
+    text-transform:uppercase;
 }
 /*---------HEADER---------*/
 header{
@@ -45,7 +46,7 @@ table {
 footer {
     background-color:#005677;
     text-align:center;
-    padding: 1px;
+    padding: 2px;
 }
 .numero{
     color:#FFFFFF;

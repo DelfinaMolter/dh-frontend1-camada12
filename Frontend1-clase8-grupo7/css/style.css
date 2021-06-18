@@ -9,6 +9,7 @@ h1, h3 {
     color:#005677;
     padding:7px 10px ;
     letter-spacing:2px;
+    text-transform:uppercase;
 }
 /*---------HEADER---------*/
 header{
@@ -40,7 +41,6 @@ main{
 
 .italica{
     font-weight: bold;
-    font-style: italic;
 }
 ul{
     padding:0px 40px; 
