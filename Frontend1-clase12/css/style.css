@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family:'Roboto', sans-serif;
 }
@@ -9,7 +15,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 1px 40px;
+    padding: 4px 90px;
 }
 #header-top div{
     width: 90px;
@@ -25,7 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
 }
 #header-bottom nav ul{
     display: flex;
@@ -61,10 +67,11 @@ body{
     font-weight: 400;
     width: 400px;
     height: 49px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 #section-top .text-banner p{
     font-size: 16px;
+    margin: 10px;
 }
 #section-top .text-banner button{
     color:#FFFFFF;
@@ -87,6 +94,7 @@ body{
 }
 #section-bottom h1 {
     font-size: 40px;
+    margin: 15px 0px;
 
 }
 .menu2{
@@ -111,7 +119,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .section-articles p{
     font-size: 15px;
@@ -132,14 +140,16 @@ body{
 .footer-top i{
     color:#FFFFFF;
     font-size: 40px;
-    text-align: center;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     background-color: #8A8787;
     border: solid 5px;
     border-color:#786960;
     border-radius: 50px;
-    padding: 15px 10px 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .footer-top h3{
     color: #FFFFFF;
@@ -166,5 +176,5 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    padding: 3px;
+    padding: 4px;
 }
