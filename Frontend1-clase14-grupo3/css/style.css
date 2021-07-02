@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+}
+
+/*-------Header-------*/
+
+.topSection{
+    background-color: #D1891C;
+    padding: 10px;
+}
+
+.bottomSection{
+    background-color: #00669F;
+    padding: 28px;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h1 {
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+/*-------Main-------*/
+
+.button-add{
+    font-size:30px;
+    background-color: #00669F;
+    color:#FFFFFF;
+    border:none;
+    border-radius:50%;
+    padding:20px 23px;
+    position:fixed;
+    right: 5vh;
+    bottom:5vh;
+    z-index:1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.60);
+}
+main section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 10px;
+}
+main section article{
+    margin: 20px 10px;
+    
+}
+.BoxTop{
+    width: 300px;
+    height: 193px;
+    position: relative;
+}
+.box .BoxTop .background{
+    border-radius: 20px 20px 0px 0px;
+    width:100%;
+    height: 100%;
+}
+.fa-heart{
+    color: #CC2424;
+    font-size:30px;
+    position: absolute;
+    top: 15px;
+    left:21px;
+}
+.imgPerfil{
+    border-radius: 100%;
+    width:125px;
+    position: absolute;
+    bottom:-53px;
+    left: calc(50% - (125px /2));
+}
+.BoxBottom{
+    width:300px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 392px;
+}
+h3 {
+    text-transform: uppercase;
+    font-size:30px;
+    padding:100px 0px 0px;
+}
+article div p {
+    padding:10px 16px;
+    text-align: left;
+    height: 193px;
+}
+article div button{
+    background-color: #00669F;
+    color: #F3F3F3;
+    border: none;
+    font-size:15px;
+    padding:15px 35px;
+    margin:37px 85px 18px;
+}
+.ocultar{
+    display:none;
+}
+/*-------Footer-------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: #00669F;
+    padding:10px;
+}
+footer p{
+    padding: 16px;
+    color:#FFF9F9;
+    text-align: center;
+}
+footer img{
+    width:100px;
+}
+
+
+/*-----------MEDIA QUERIES--------*/
+/*-----------Tablet--------*/
+
+@media (min-width: 480px){
+    main section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    .ocultar{
+        display:block;
+    }
+}
+
+/*-----------Desktop--------*/
+
+@media(min-width: 979px){
+    main section article{
+        margin: 20px 70px;
+    }
+    footer{
+        position: relative;
+    }
+    footer img{
+        position: absolute;
+        right:5vw;
+    }
+}
+@media(min-width: 1260px){
+    main section article{
+        flex-wrap: wrap;
+        margin:20px 5px;
+    }
+}
