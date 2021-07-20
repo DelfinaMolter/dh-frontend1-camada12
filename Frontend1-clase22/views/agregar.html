@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <section class = "topSection">
+            <p>Descuento 20%</p>
+        </section>
+        <section class = "bottomSection">
+            <a href="../index.html"><img src="../img/logo.png" alt="Logo"></a>
+            <h1 >Nombre Tienda</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="views/contact.html">Contacto</a></li>
+                <li><a href="views/register.html">Registrarme</a></li>
+                <li><a href="views/login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class=agregar>
+        <section class=agregar-section>
+            <h2>Añadir tu super!</h2>
+            <p>Agregá tu personajefavorito completando las opciones.</p>
+            <form action="../index.html" method="post">
+                <div class="form">
+                    <div class="form-izq">
+                        <label for="name">*Nombre</label>
+                        <input type="text" id="name" name="name">
+                        <label for="date">Fecha</label>
+                        <input type="date" id="date" name="date">
+                        <textarea name="text" placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="form-der">
+                        <label for="especie">*Especie</label>
+                        <select name="especie" id="especie">
+                            <option disabled>Especie</option>
+                            <option value="unknown">Unknown</option>
+                        </select>
+                        <label for="foto">Agrgar Foto</label>
+                        <input type="file" id="foto" name="foto">
+                        <fieldset>
+                            <legend>Poderes</legend>
+                            <div>
+                                <input type="checkbox" id="volar" name="poderes" value="volar">
+                                <label for="volar">Volar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="superinteligencia" name="poderes" value="superinteligencia">
+                                <label for="superinteligencia">Superinteligencia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="vista_de_rayo_laser" name="poderes" value="vista_de_rayo_laser">
+                                <label for="vista_de_rayo_laser">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="billetera_gorda" name="poderes" value="billetera_gorda">
+                                <label for="billetera_gorda">Billetera gorda</label>
+                            </div>
+                        </fieldset>
+                        <hr>
+                        <fieldset>
+                            <legend>Tipo de personaje</legend>
+                            <div>
+                                <input type="radio" id="heroe" name="tipo_de_personaje" value="heroe">
+                                <label for="heroe">Héroe / Heroina</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="villano" name="tipo_de_personaje" value="villano">
+                                <label for="villano">Villano / Villana</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <button type="submit">Añadir</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados Front End 1</p>
+        <img src="../img/vector.png" alt="logo de Git Hub">
+    </footer>
+</body>
+</html>
